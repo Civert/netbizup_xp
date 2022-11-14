@@ -1,0 +1,57 @@
+.export {
+
+    color: #585858;
+    background-color: #FFB401;
+    border: 1px solid #585858;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.show-hide {
+    color: rgb(0, 0, 0);
+    background-color: #FFB401;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #585858;
+    padding: .375rem 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.show-hide::before {
+    background: inherit;
+    content: "Colonnes visibles";
+    font-weight: bold;
+    color:#585858;
+    position: absolute;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #585858;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+}
